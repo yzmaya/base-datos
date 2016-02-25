@@ -10,7 +10,7 @@ CREATE TABLE libros
     autor             VARCHAR2(200),
     fecha_publicacion DATE,
     num_pag           NUMBER,
-    CONSTRAINT pk_book_id PRIMARY KEY (book_id)
+    CONSTRAINT pk_libro_id PRIMARY KEY (libro_id)
   );
   
 SET serveroutput ON;
